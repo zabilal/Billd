@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/my_bills"
+        android:enabled="true"
+        android:title="@string/menu1"
+        android:visible="true"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/settings"
+        android:enabled="true"
+        android:title="@string/menu2"
+        android:visible="true"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/logout"
+        android:enabled="true"
+        android:title="@string/menu3"
+        android:visible="true"
+        app:showAsAction="never"/>
+
+</menu>
