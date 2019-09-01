@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#000">
+    android:background="#fff">
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar1"
@@ -19,21 +19,31 @@
         <!--android:layout_gravity="center|bottom"-->
         <!--android:scaleType="fitCenter" />-->
 
-    <TextView
-        android:id="@+id/title"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom"
-        android:background="#00000c"
-        android:padding="10dp"
-        android:textColor="#fff"
-        android:textSize="20dp" />
+    <!--<TextView-->
+        <!--android:id="@+id/title"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="bottom"-->
+        <!--android:background="#00000c"-->
+        <!--android:padding="10dp"-->
+        <!--android:textColor="#fff"-->
+        <!--android:textSize="20dp" />-->
 
     <EditText
         android:id="@+id/edit_text"
         android:layout_width="match_parent"
-        android:layout_height="441dp"
+        android:layout_height="429dp"
         android:layout_marginTop="57dp"
         android:gravity="center"
-        android:textColor="#fff" />
+        android:textColor="#000" />
+
+    <include
+        android:id="@+id/googlepay_button"
+        layout="@layout/googlepay_button"
+        android:layout_width="@dimen/buy_button_width"
+        android:layout_height="@dimen/buy_button_height"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="20dp"/>
+
+
 </FrameLayout>

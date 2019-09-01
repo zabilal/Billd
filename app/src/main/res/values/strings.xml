@@ -54,6 +54,9 @@
     <string name="turn_on_flashlight">Turn on Flashlight</string>
     <string name="turn_off_flashlight">Turn off Flashlight</string>
     <string name="title_activity_settings">Settings</string>
+    <string name="googlepay_button_content_description" translatable="false">Google Pay</string>
+    <string name="payments_show_name" translatable="false">Successfully received payment data for %s!</string>
+
 
     <!-- Strings related to Settings -->
 

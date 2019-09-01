@@ -60,6 +60,10 @@
         <activity android:name=".GalleryActivity" />
         <activity android:name=".DetailsActivity" />
         <activity android:name=".SettingActivity"></activity>
+
+        <meta-data
+            android:name="com.google.android.gms.wallet.api.enabled"
+            android:value="true" />
     </application>
 
 </manifest>

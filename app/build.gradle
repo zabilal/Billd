@@ -4,7 +4,7 @@ android {
     compileSdkVersion 26
     defaultConfig {
         applicationId "com.ada.android.billd"
-        minSdkVersion 16
+        minSdkVersion 24
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"
@@ -37,4 +37,7 @@ dependencies {
     implementation 'com.journeyapps:zxing-android-embedded:3.6.0'
 //    implementation 'com.nexmo.android:client-sdk:0.3.0'
     implementation 'com.android.support:recyclerview-v7:26.1.0'
+    implementation 'com.google.android.gms:play-services-wallet:16.0.1'
+//    implementation 'com.android.support:appcompat-v7:24.1.1'
+
 }
